@@ -1,0 +1,50 @@
+{
+  "dataType": "系统数据英文",
+  "dataContent": [
+    {
+      "systemName":"Coupling and uncoupling system",
+      "systemIntro":"A management platform to improve the efficiency of C&U vehicles;to lower cost for maintenance; to overall manage vehicles and analyze vehicles dispatching efficiency; to monitor mileage,speed,location,TP&TT; to alarm and to analyze data",
+      "active":false,
+
+      "systemID":1
+    },
+    {
+      "systemName":"Intelligent E-lock",
+      "systemIntro":"It possesses real-time tracking and online monitoring to prevent illegal unlocking during transportation for containers,trailers and van trucks. The remote unlocking is supported by APP or management platform.",
+      "active":false,
+      "systemID":2
+    },
+    {
+      "systemName":"Cold chain management system",
+      "systemIntro":"Wireless temperature recorder can be applied in refrigerated vehicles,refrigerator and freezer. This tiny device can be installed in carriages and warehouses. It’s easy to operate.The temperature and humidity inside the carriages can be live monitored by management platform, which will trigger alarm when the temperature is too high or too low.",
+      "active":false,
+      "systemID":3
+
+    },
+    {
+      "systemName":"Fleet management system",
+      "systemIntro":"It’s a set of management platform to manage vehicles meticulously, to properly behave the driver and to lower the normal oil consumption. The oil-theft while parking,idling,unplugging,and excessively abnormal oil consumption resulted from improper driving behavior can be live monitored.",
+      "active":false,
+      "systemID":4
+    },
+    {
+      "systemName":"Concrete vehicle management system",
+      "systemIntro":"Concrete vehicle management system",
+      "active":false,
+      "systemID":5
+    },
+    {
+      "systemName":"Container control system",
+      "systemIntro":"Container control system",
+      "active":false,
+      "systemID":6
+    },
+    {
+      "systemName":"Intelligence Purvey System",
+      "systemIntro":"Intelligence Purvey System",
+      "active":false,
+      "systemID":7
+    }
+
+  ]
+}

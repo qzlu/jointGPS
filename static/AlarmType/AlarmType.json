@@ -1,0 +1,697 @@
+{
+  "dataType": "报警类型",
+  "dataContent": [
+    {
+      "systemType": 1,
+      "alarmType": [
+        {
+          "FDataType": "1",
+          "alarmNameCN": "超速报警",
+          "alarmNameEN": "Over Speed",
+          "classify": "AI-A1Gray"
+        },
+        {
+          "FDataType": "2",
+          "alarmNameCN": "胎温胎压报警",
+          "alarmNameEN": "Tire Temp&Pressure Alarm",
+          "classify": "AI-A5Gray"
+        },
+        {
+          "FDataType": "3",
+          "alarmNameCN": "超时停车报警",
+          "alarmNameEN": "Overtime Parking",
+          "classify": "AI-D3Gray"
+        },
+        {
+          "FDataType": "4",
+          "alarmNameCN": "疲劳驾驶报警",
+          "alarmNameEN": "Fatigue Driving",
+          "classify": "AI-E1Gray"
+        },
+        {
+          "FDataType": "6",
+          "alarmNameCN": "低电量报警",
+          "alarmNameEN": "Low Battery ",
+          "classify": "AI-F1Gray"
+        },
+        {
+          "FDataType": "14",
+          "alarmNameCN": "进电子围栏报警",
+          "alarmNameEN": "Enter G-fence Alarm",
+          "classify": "AI-I1Gray"
+        },
+        {
+          "FDataType": "15",
+          "alarmNameCN": "出电子围栏报警",
+          "alarmNameEN": "Exit G-fence Alarm",
+          "classify": "AI-J1Gray"
+        },
+        {
+          "FDataType": "19",
+          "alarmNameCN": "拆卸报警(主机)",
+          "alarmNameEN": "Removal Alarm(Main-unit)",
+          "classify": "AI-E7Gray"
+        },
+        {
+          "FDataType": "20",
+          "alarmNameCN": "拆卸报警(从机)",
+          "alarmNameEN": "Removal Alarm(Sensor)",
+          "classify": "AI-E7Gray"
+        },
+        {
+          "FDataType": "24",
+          "alarmNameCN": "进道路报警",
+          "alarmNameEN": "Enter Road Alarm",
+          "classify": "AI-B3Gray"
+        },
+        {
+          "FDataType": "25",
+          "alarmNameCN": "出道路报警",
+          "alarmNameEN": "Exit Road Alarm",
+          "classify": "AI-A3Gray"
+        },
+        {
+          "FDataType": "26",
+          "alarmNameCN": "道路偏移报警",
+          "alarmNameEN": "Road Deviation Alarm",
+          "classify": "AI-C3Gray"
+        }
+      ]
+    },
+    {
+      "systemType": 2,
+      "alarmType": [
+        {
+          "FDataType": "1",
+          "alarmNameCN": "超速报警",
+          "alarmNameEN": "Over Speed",
+          "classify": "AI-A1Gray"
+        },
+        {
+          "FDataType": "7",
+          "alarmNameCN": "温度报警",
+          "alarmNameEN": "Temp Alarm",
+          "classify": "AI-D1Gray"
+        },
+        {
+          "FDataType": "9",
+          "alarmNameCN": "刷非法卡",
+          "alarmNameEN": "Illegal RFID",
+          "classify": "AI-D5Gray"
+        },
+        {
+          "FDataType": "10",
+          "alarmNameCN": "锁挂绳剪断报警",
+          "alarmNameEN": "Rope-cut Alarm",
+          "classify": "AI-C5Gray"
+        },
+        {
+          "FDataType": "11",
+          "alarmNameCN": "长时间开锁",
+          "alarmNameEN": "Long Time Unlocks",
+          "classify": "AI-D7Gray"
+        },
+        {
+          "FDataType": "12",
+          "alarmNameCN": "密码错误报警",
+          "alarmNameEN": "Wrong Password Alarm",
+          "classify": "AI-J5Gray"
+        },
+        {
+          "FDataType": "40",
+          "alarmNameCN": "姿态异常报警",
+          "alarmNameEN": "Abnormal Gesture",
+          "classify": "AI-H5Gray"
+        },
+        {
+          "FDataType": "14",
+          "alarmNameCN": "进电子围栏报警",
+          "alarmNameEN": "Enter G-fence Alarm",
+          "classify": "AI-I1Gray"
+        },
+        {
+          "FDataType": "15",
+          "alarmNameCN": "出电子围栏报警",
+          "alarmNameEN": "Exit G-fence Alarm",
+          "classify": "AI-J1Gray"
+        },
+        {
+          "FDataType": "6",
+          "alarmNameCN": "低电量报警",
+          "alarmNameEN": "Low Battery",
+          "classify": "AI-F1Gray"
+        },
+        {
+          "FDataType": "17",
+          "alarmNameCN": "开后盖报警",
+          "alarmNameEN": "Back-cover Open Alarm",
+          "classify": "AI-E5Gray"
+        },{
+          "FDataType": "18",
+          "alarmNameCN": "卡锁报警",
+          "alarmNameEN": "Jam Alarm",
+          "classify": "AI-C7Gray"
+        },
+        {
+          "FDataType": "24",
+          "alarmNameCN": "进道路报警",
+          "alarmNameEN": "Enter Road Alarm",
+          "classify": "AI-B3Gray"
+        },
+        {
+          "FDataType": "25",
+          "alarmNameCN": "出道路报警",
+          "alarmNameEN": "Exit Road Alarm",
+          "classify": "AI-A3Gray"
+        },
+        {
+          "FDataType": "26",
+          "alarmNameCN": "道路偏移报警",
+          "alarmNameEN": "Road Deviation Alarm",
+          "classify": "AI-C3Gray"
+        },
+        {
+          "FDataType": "35",
+          "alarmNameCN": "锁异常报警",
+          "alarmNameEN": "Lock exception alarm",
+          "classify": "AI-A7Gray"
+        },
+        {
+          "FDataType": "36",
+          "alarmNameCN": "非许可区域报警",
+          "alarmNameEN": "Illegal Area Alarm",
+          "classify": "AI-F5Gray"
+        },
+        {
+          "FDataType": "37",
+          "alarmNameCN": "上盖被破坏报警",
+          "alarmNameEN": "Cover Damaged Alarm",
+          "classify": "AI-I5Gray"
+        },
+        {
+          "FDataType": "38",
+          "alarmNameCN": "控制板通讯异常报警",
+          "alarmNameEN": "Control Pannel Alarm",
+          "classify": "AI-B7Gray"
+        }
+      ]
+    },
+    {
+      "systemType": 4,
+      "alarmType": [
+        {
+          "FDataType": "1",
+          "alarmNameCN": "超速报警",
+          "alarmNameEN": "Over Speed",
+          "classify": "AI-A1Gray"
+        },
+        {
+          "FDataType": "2",
+          "alarmNameCN": "胎温胎压报警",
+          "alarmNameEN": "Tire Temp&Pressure Alarm",
+          "classify": "AI-A5Gray"
+        },
+        {
+          "FDataType": "3",
+          "alarmNameCN": "超时停车报警",
+          "alarmNameEN": "Overtime Parking",
+          "classify": "AI-D3Gray"
+        },
+        {
+          "FDataType": "4",
+          "alarmNameCN": "疲劳驾驶报警",
+          "alarmNameEN": "Fatigue Driving",
+          "classify": "AI-E1Gray"
+        },
+        {
+          "FDataType": "6",
+          "alarmNameCN": "低电量报警",
+          "alarmNameEN": "Low Battery ",
+          "classify": "AI-F1Gray"
+        },
+        {
+          "FDataType": "7",
+          "alarmNameCN": "温度报警",
+          "alarmNameEN": "Temp Alarm",
+          "classify": "AI-D1Gray"
+        },
+        {
+          "FDataType": "13",
+          "alarmNameCN": "震动报警",
+          "alarmNameEN": "Vibration Alarm",
+          "classify": "AI-B5Gray"
+        },
+        {
+          "FDataType": "14",
+          "alarmNameCN": "进电子围栏报警",
+          "alarmNameEN": "Enter G-fence Alarm",
+          "classify": "AI-I1Gray"
+        },
+        {
+          "FDataType": "15",
+          "alarmNameCN": "出电子围栏报警",
+          "alarmNameEN": "Exit G-fence Alarm",
+          "classify": "AI-J1Gray"
+        },{
+          "FDataType": "18",
+          "alarmNameCN": "卡锁报警",
+          "alarmNameEN": "Jam Alarm",
+          "classify": "AI-C7Gray"
+        },
+        {
+          "FDataType": "24",
+          "alarmNameCN": "进道路报警",
+          "alarmNameEN": "Enter Road Alarm",
+          "classify": "AI-B3Gray"
+        },
+        {
+          "FDataType": "25",
+          "alarmNameCN": "出道路报警",
+          "alarmNameEN": "Exit Road Alarm",
+          "classify": "AI-A3Gray"
+        },
+        {
+          "FDataType": "26",
+          "alarmNameCN": "道路偏移报警",
+          "alarmNameEN": "Road Deviation Alarm",
+          "classify": "AI-C3Gray"
+        },
+        {
+          "FDataType": "27",
+          "alarmNameCN": "JT606连接断开",
+          "alarmNameEN": "JT606 Disconnect",
+          "classify": "AI-E3Gray"
+        },
+        {
+          "FDataType": "28",
+          "alarmNameCN": "主电源断开报警",
+          "alarmNameEN": "Main Power Off",
+          "classify": "AI-F3Gray"
+        },
+        {
+          "FDataType": "29",
+          "alarmNameCN": "GPS天线开路",
+          "alarmNameEN": "GPS Antenna Off",
+          "classify": "AI-G3Gray"
+        },
+        {
+          "FDataType": "30",
+          "alarmNameCN": "GPS天线短路",
+          "alarmNameEN": "GPS Antenna Short Circuit",
+          "classify": "AI-H3Gray"
+        },
+        {
+          "FDataType": "31",
+          "alarmNameCN": "GSM信号干扰",
+          "alarmNameEN": "GSM Signal Interference",
+          "classify": "AI-I3Gray"
+        },
+        {
+          "FDataType": "32",
+          "alarmNameCN": "劫警",
+          "alarmNameEN": "Robbery",
+          "classify": "AI-J3Gray"
+        },
+        {
+          "FDataType": "33",
+          "alarmNameCN": "紧急刹车报警",
+          "alarmNameEN": "Emergency Brake",
+          "classify": "AI-B1Gray"
+        },
+        {
+          "FDataType": "34",
+          "alarmNameCN": "空挡滑行报警",
+          "alarmNameEN": "Neutral Gear",
+          "classify": "AI-C1Gray"
+        },
+        {
+          "FDataType": null,
+          "alarmNameCN": "油位异常报警",
+          "alarmNameEN": "Abnormal Fuel",
+          "classify": "AI-G1Gray"
+        },
+        {
+          "FDataType": "21",
+          "alarmNameCN": "未系安全带报警",
+          "alarmNameEN": "Safe-belt Alarm",
+          "classify": "AI-H1Gray"
+        }
+      ]
+    },
+    {
+      "systemType": 6,
+      "alarmType": [
+        {
+          "FDataType": "6",
+          "alarmNameCN": "低电量报警",
+          "alarmNameEN": "Low Battery ",
+          "classify": "AI-F1Gray"
+        },
+        {
+          "FDataType": null,
+          "alarmNameCN": "撞击报警",
+          "alarmNameEN": "Hit Alarm",
+          "classify": "AI-G5Gray"
+        },
+        {
+          "FDataType": "19",
+          "alarmNameCN": "拆卸报警(主机)",
+          "alarmNameEN": "Removal Alarm(Main-unit)",
+          "classify": "AI-E7Gray"
+        },
+        {
+          "FDataType": "20",
+          "alarmNameCN": "拆卸报警(从机)",
+          "alarmNameEN": "Removal Alarm(Sensor)",
+          "classify": "AI-E7Gray"
+        }
+      ]
+    },
+    {
+      "systemType": 7,
+      "alarmType": [
+        {
+          "FDataType": "1",
+          "alarmNameCN": "超速报警",
+          "alarmNameEN": "Over Speed",
+          "classify": "AI-A1Gray"
+        },
+        {
+          "FDataType": "6",
+          "alarmNameCN": "低电量报警",
+          "alarmNameEN": "Low Battery ",
+          "classify": "AI-F1Gray"
+        },
+        {
+          "FDataType": "9",
+          "alarmNameCN": "刷非法卡",
+          "alarmNameEN": "Illegal RFID",
+          "classify": "AI-D5Gray"
+        },
+        {
+          "FDataType": "10",
+          "alarmNameCN": "锁挂绳剪断报警",
+          "alarmNameEN": "Rope-cut Alarm",
+          "classify": "AI-C5Gray"
+        },
+        {
+          "FDataType": "11",
+          "alarmNameCN": "长时间开锁",
+          "alarmNameEN": "Long Time Unlocks",
+          "classify": "AI-D7Gray"
+        },
+        {
+          "FDataType": "12",
+          "alarmNameCN": "密码错误报警",
+          "alarmNameEN": "Wrong Password Alarm",
+          "classify": "AI-J5Gray"
+        },
+        {
+          "FDataType": "14",
+          "alarmNameCN": "进电子围栏报警",
+          "alarmNameEN": "Enter G-fence Alarm",
+          "classify": "AI-I1Gray"
+        },
+        {
+          "FDataType": "15",
+          "alarmNameCN": "出电子围栏报警",
+          "alarmNameEN": "Exit G-fence Alarm",
+          "classify": "AI-J1Gray"
+        },
+        {
+          "FDataType": "17",
+          "alarmNameCN": "开后盖报警",
+          "alarmNameEN": "Back-cover Open Alarm",
+          "classify": "AI-E5Gray"
+        },{
+          "FDataType": "18",
+          "alarmNameCN": "卡锁报警",
+          "alarmNameEN": "Jam Alarm",
+          "classify": "AI-C7Gray"
+        },
+        {
+          "FDataType": "24",
+          "alarmNameCN": "进道路报警",
+          "alarmNameEN": "Enter Road Alarm",
+          "classify": "AI-B3Gray"
+        },
+        {
+          "FDataType": "25",
+          "alarmNameCN": "出道路报警",
+          "alarmNameEN": "Exit Road Alarm",
+          "classify": "AI-A3Gray"
+        },
+        {
+          "FDataType": "26",
+          "alarmNameCN": "道路偏移报警",
+          "alarmNameEN": "Road Deviation Alarm",
+          "classify": "AI-C3Gray"
+        },
+        {
+          "FDataType": "35",
+          "alarmNameCN": "锁异常报警",
+          "alarmNameEN": "Lock exception alarm",
+          "classify": "AI-A7Gray"
+        },
+        {
+          "FDataType": "36",
+          "alarmNameCN": "非许可区域报警",
+          "alarmNameEN": "Illegal Area Alarm",
+          "classify": "AI-F5Gray"
+        },
+        {
+          "FDataType": "37",
+          "alarmNameCN": "上盖被破坏报警",
+          "alarmNameEN": "Cover Damaged Alarm",
+          "classify": "AI-I5Gray"
+        },
+        {
+          "FDataType": "38",
+          "alarmNameCN": "控制板通讯异常报警",
+          "alarmNameEN": "Control Pannel Alarm",
+          "classify": "AI-B7Gray"
+        }
+      ]
+    },
+    {
+      "systemType": 8,
+      "alarmType": [
+        {
+          "FDataType": "1",
+          "alarmNameCN": "超速报警",
+          "alarmNameEN": "Over Speed",
+          "classify": "AI-A1Gray"
+        },
+        {
+          "FDataType": "2",
+          "alarmNameCN": "胎温胎压报警",
+          "alarmNameEN": "Tire Temp&Pressure Alarm",
+          "classify": "AI-A5Gray"
+        },
+        {
+          "FDataType": "3",
+          "alarmNameCN": "超时停车报警",
+          "alarmNameEN": "Overtime Parking",
+          "classify": "AI-D3Gray"
+        },
+        {
+          "FDataType": "4",
+          "alarmNameCN": "疲劳驾驶报警",
+          "alarmNameEN": "Fatigue Driving",
+          "classify": "AI-E1Gray"
+        },
+        {
+          "FDataType": "6",
+          "alarmNameCN": "低电量报警",
+          "alarmNameEN": "Low Battery ",
+          "classify": "AI-F1Gray"
+        },
+        {
+          "FDataType": "14",
+          "alarmNameCN": "进电子围栏报警",
+          "alarmNameEN": "Enter G-fence Alarm",
+          "classify": "AI-I1Gray"
+        },
+        {
+          "FDataType": "15",
+          "alarmNameCN": "出电子围栏报警",
+          "alarmNameEN": "Exit G-fence Alarm",
+          "classify": "AI-J1Gray"
+        },
+        {
+          "FDataType": "19",
+          "alarmNameCN": "拆卸报警(主机)",
+          "alarmNameEN": "Removal Alarm(Main-unit)",
+          "classify": "AI-E7Gray"
+        },
+        {
+          "FDataType": "20",
+          "alarmNameCN": "拆卸报警(从机)",
+          "alarmNameEN": "Removal Alarm(Sensor)",
+          "classify": "AI-E7Gray"
+        },
+        {
+          "FDataType": "24",
+          "alarmNameCN": "进道路报警",
+          "alarmNameEN": "Enter Road Alarm",
+          "classify": "AI-B3Gray"
+        },
+        {
+          "FDataType": "25",
+          "alarmNameCN": "出道路报警",
+          "alarmNameEN": "Exit Road Alarm",
+          "classify": "AI-A3Gray"
+        },
+        {
+          "FDataType": "26",
+          "alarmNameCN": "道路偏移报警",
+          "alarmNameEN": "Road Deviation Alarm",
+          "classify": "AI-C3Gray"
+        },
+        {
+          "FDataType": "7",
+          "alarmNameCN": "温度报警",
+          "alarmNameEN": "Temp Alarm",
+          "classify": "AI-D1Gray"
+        },
+        {
+          "FDataType": "9",
+          "alarmNameCN": "刷非法卡",
+          "alarmNameEN": "Illegal RFID",
+          "classify": "AI-D5Gray"
+        },
+        {
+          "FDataType": "10",
+          "alarmNameCN": "锁挂绳剪断报警",
+          "alarmNameEN": "Rope-cut Alarm",
+          "classify": "AI-C5Gray"
+        },
+        {
+          "FDataType": "11",
+          "alarmNameCN": "长时间开锁",
+          "alarmNameEN": "Long Time Unlocks",
+          "classify": "AI-D7Gray"
+        },
+        {
+          "FDataType": "12",
+          "alarmNameCN": "密码错误报警",
+          "alarmNameEN": "Wrong Password Alarm",
+          "classify": "AI-J5Gray"
+        },
+        {
+          "FDataType": "40",
+          "alarmNameCN": "姿态异常报警",
+          "alarmNameEN": "Abnormal Gesture",
+          "classify": "AI-H5Gray"
+        },
+        {
+          "FDataType": "17",
+          "alarmNameCN": "开后盖报警",
+          "alarmNameEN": "Back-cover Open Alarm",
+          "classify": "AI-E5Gray"
+        },{
+          "FDataType": "18",
+          "alarmNameCN": "卡锁报警",
+          "alarmNameEN": "Jam Alarm",
+          "classify": "AI-C7Gray"
+        },
+        {
+          "FDataType": "35",
+          "alarmNameCN": "锁异常报警",
+          "alarmNameEN": "Lock exception alarm",
+          "classify": "AI-A7Gray"
+        },
+        {
+          "FDataType": "36",
+          "alarmNameCN": "非许可区域报警",
+          "alarmNameEN": "Illegal Area Alarm",
+          "classify": "AI-F5Gray"
+        },
+        {
+          "FDataType": "37",
+          "alarmNameCN": "上盖被破坏报警",
+          "alarmNameEN": "Cover Damaged Alarm",
+          "classify": "AI-I5Gray"
+        },
+        {
+          "FDataType": "38",
+          "alarmNameCN": "控制板通讯异常报警",
+          "alarmNameEN": "Control Pannel Alarm",
+          "classify": "AI-B7Gray"
+        },
+        {
+          "FDataType": "13",
+          "alarmNameCN": "震动报警",
+          "alarmNameEN": "Vibration Alarm",
+          "classify": "AI-B5Gray"
+        },
+        {
+          "FDataType": "27",
+          "alarmNameCN": "JT606连接断开",
+          "alarmNameEN": "JT606 Disconnect",
+          "classify": "AI-E3Gray"
+        },
+        {
+          "FDataType": "28",
+          "alarmNameCN": "主电源断开报警",
+          "alarmNameEN": "Main Power Off",
+          "classify": "AI-F3Gray"
+        },
+        {
+          "FDataType": "29",
+          "alarmNameCN": "GPS天线开路",
+          "alarmNameEN": "GPS Antenna Off",
+          "classify": "AI-G3Gray"
+        },
+        {
+          "FDataType": "30",
+          "alarmNameCN": "GPS天线短路",
+          "alarmNameEN": "GPS Antenna Short Circuit",
+          "classify": "AI-H3Gray"
+        },
+        {
+          "FDataType": "31",
+          "alarmNameCN": "GSM信号干扰",
+          "alarmNameEN": "GSM Signal Interference",
+          "classify": "AI-I3Gray"
+        },
+        {
+          "FDataType": "32",
+          "alarmNameCN": "劫警",
+          "alarmNameEN": "Robbery",
+          "classify": "AI-J3Gray"
+        },
+        {
+          "FDataType": "33",
+          "alarmNameCN": "紧急刹车报警",
+          "alarmNameEN": "Emergency Brake",
+          "classify": "AI-B1Gray"
+        },
+        {
+          "FDataType": "34",
+          "alarmNameCN": "空挡滑行报警",
+          "alarmNameEN": "Neutral Gear",
+          "classify": "AI-C1Gray"
+        },
+        {
+          "FDataType": null,
+          "alarmNameCN": "油位异常报警",
+          "alarmNameEN": "Abnormal Fuel",
+          "classify": "AI-G1Gray"
+        },
+        {
+          "FDataType": "21",
+          "alarmNameCN": "未系安全带报警",
+          "alarmNameEN": "Safe-belt Alarm",
+          "classify": "AI-H1Gray"
+        },
+        {
+          "FDataType": null,
+          "alarmNameCN": "撞击报警",
+          "alarmNameEN": "Hit Alarm",
+          "classify": "AI-G5Gray"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,184 @@
+.block {
+    float:left;
+    margin-left:20px;
+}
+
+.block:nth-child(1) {
+    margin-left:0;
+}
+
+.btnList {
+    /*margin-left:0;*/
+    float:left;
+}
+
+.box-header {
+    line-height:46px;
+    color:#444;
+    display:block;
+    padding:0 0 0 18px;
+    position:relative;
+    border:1px solid #d9d9d9;
+    margin:0 0 5px 0;
+    background-color:#fff;
+}
+
+.search-input-wrap {
+    float:left;
+    margin:9px 0 0 10px;
+}
+
+.search-input {
+    float:left;
+    width:120px;
+    height:28px;
+    border:1px solid #e6e6e6;
+}
+
+.operatExp {
+    float:left;
+    font-size:12px;
+}
+
+.get-carList-dialog {
+    float:left;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    width:28px;
+    height:28px;
+    border:1px solid #e6e6e6;
+    border-right:none;
+    text-align:center;
+}
+
+/*.el-button不能全局可能有些报表内部会用到饿了么的按钮组件*/
+.el-button {
+    border:none;
+    border-radius:0;
+    padding:8px 26px;
+}
+/*按钮样式 可用于全局 也可单独用在组件，主要看以后表格内的按钮怎么命名*/
+.search {
+    background-color:#005fc6;
+}
+.reset {
+    background-color:#547ca9;
+}
+.cancel{
+    background-color:#bbb;
+}
+.export {
+    background-color:#4aae58;
+    padding:8px 16px;
+}
+.read {
+    background-color:#f39b2a;
+    padding:8px 16px;
+}
+
+/*fontawesome 里面字体图标的样式*/
+.fa-share-square-o {
+    margin-right:3px;
+}
+.fa-envelope-open-o {
+    margin-right:3px;
+}
+
+/*el-tabs 选项卡(后期可放入main.css)*/
+.el-tabs__header {
+    margin:0;
+}
+
+.el-tabs__active-bar {
+    background-color:#005fc6;
+}
+
+.el-tabs__item {
+    height:36px;
+    line-height:36px;
+}
+
+.el-tabs__nav-wrap {
+    background-color:#fff;
+}
+
+.el-tabs__item.is-active {
+    color:#333;
+}
+/*DatePicker 饿了么选择时间插件(后期可放入main.css)*/
+.el-input__icon {
+    left:0;
+}
+
+/*日期段选择样式*/
+.box-header .el-date-editor--daterange,.box-header .el-date-editor--datetimerange {
+    margin:0 10px;
+    padding:1px 10px;
+    width: 317px;
+    height: 28px;
+    border-radius:0;
+    border-color:#e6e6e6;
+}
+
+.el-date-editor--daterange .el-range-input,.el-date-editor--datetimerange .el-range-input{
+    width: 134px;
+}
+.el-date-editor .el-range__icon{
+    margin-left: 0;
+}
+.el-icon-date:before, .el-icon-time:before {
+    content:'';
+    width:1px;
+    height:28px;
+    background-color:#e6e6e6;
+    position:absolute;
+    display:inline-block;
+    left:26px;
+    top:-1px;
+}
+.el-icon-date:after, .el-icon-time:after {
+    content:"";
+    display:inline-block;
+    width:16px;
+    height:16px;
+    background:url("/static/img/sprite/all_icon.png") no-repeat -67px -202px;
+    position:relative;
+    left:-5px;
+    top:-1px;
+}
+/*日期选择样式*/
+.box-header .el-date-editor--date{
+    margin:0 10px;
+    width: 138px;
+    height: 28px;
+    border-radius:0;
+    border-color:#e6e6e6;
+}
+.box-header .el-date-editor--date .el-input__inner{
+    margin-left: 0;
+    height: 28px;
+}
+.el-date-editor--date .el-icon-date:after,.el-date-editor--date .el-icon-time:after {
+    left:-2px;
+    top:2px;
+}
+.el-date-editor--date .el-icon-date:before,.el-date-editor--date .el-icon-time:before {
+    left:26px;
+    top:8px;
+}
+
+/* 查询类型框*/
+.searchType{
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-right: 0px;
+  width: 115px;
+}
+.searchType input{
+  height: 28px!important;
+  border-radius:0px!important;
+}
+.el-tabs__nav-scroll{
+    padding-left: 20px;
+}

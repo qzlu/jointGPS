@@ -1,0 +1,610 @@
+/*小图标精灵图 icon样式*/
+.img-icon{
+    background-image:url("/static/img/sprite/all_icon.png")!important;
+    background-repeat:no-repeat;
+}
+
+/*系统选择部分 各系统icon*/
+.header-system-icon{
+    position:absolute;
+    left:10px;
+    top:13px;
+    width:34px;
+    height:24px;
+    background-image:url("/static/img/sprite/system_icon.png")!important;
+    background-repeat:no-repeat;
+}
+.system-cll{background-position:0 0;}
+.system-el{background-position:-31px 0;}
+.system-trailer{background-position:-64px 0;}
+.system-logistics{background-position:-95px 0;}
+.system-beton{background-position:-128px 0;}   /*混泥土暂未开发  预留*/
+.system-container{background-position:-127px 0;}
+.system-dispatching{background-position:-160px 0;}
+
+/*系统顶部功能区  各功能icon*/
+.header-fn-icon{
+    display:inline-block;
+    width:22px;
+    height:21px;
+}
+.header-event{background-position:1px -218px}
+.header-alarm{background-position:-21px -218px}
+.header-message{background-position:-43px -218px}
+.header-set{background-position:-65px -218px}
+
+
+/*报表选择车辆dialog按钮图标*/
+.icon-carList-dialog {
+    width:19px;
+    height:13px;
+    background-position:-48px -204px;
+}
+
+/*系统顶部中英文标题*/
+.top-title-icon{
+    background-image:url("/static/img/sprite/title_icon.png")!important;
+    background-repeat:no-repeat;
+}
+
+.tagline-CN{
+    float:left;
+    margin-top:5px;
+    width:170px;
+    height:40px;
+    background-position:0 0;
+}
+.tagline-EN{
+    float:left;
+    margin-top:5px;
+    width:264px;
+    height:40px;
+    background-position:0 -40px;
+}
+
+/*home页面 顶部标签栏icon*/
+.home-tags-icon{
+    background-image:url("/static/img/sprite/tag_icon.png")!important;
+    background-repeat:no-repeat;
+}
+
+/*实时监控 轨迹回放等页面 下部列表操作按钮*/
+
+.close-Menu .restore-btn {
+    background-position:-16px -28px;
+}
+.close-Menu .close-btn {
+    background-position:0 -28px;
+}
+/*实时监控  报警icon*/
+.icon-alarmOverTime {background-position:0 -52px}
+
+.icon-alarmFLockRope {background-position:-16px -52px}
+
+.icon-fivePasswordError {background-position:-32px -52px}
+
+.icon-alarmLowBattery {background-position:-48px -52px}
+
+.icon-illegalCard {background-position:-64px -52px}
+
+.icon-alarmOffsetRoad {background-position:-80px -52px}
+
+.icon-alarmOverSpeed {background-position:-96px -52px}
+
+.icon-alarmFatigue {background-position:-112px -52px}
+
+.icon-alarmTemperature {background-position:-128px -52px}
+
+.icon-longTimeOpened {background-position:0 -68px}
+
+.icon-forbiddenAreaOpen {background-position:-16px -68px}
+
+.icon-unCoverBack {background-position:-32px -68px}
+
+/*左侧菜单*/
+
+.icon-0{background-position:0 -235px}
+.icon-1{background-position:-18px -235px}
+.icon-2{background-position:-36px -235px}
+.icon-3{background-position:-54px -235px}
+.icon-4{background-position:-72px -235px}
+.icon-5{background-position:-90px -235px}
+.icon-6{background-position:-108px -235px}
+
+
+
+
+/*快捷菜单 icon*/
+.M-A1{background-position:-20px -20px;}
+.M-A2{background-position:-20px -60px;}
+.M-A3{background-position:-20px -100px;}
+.M-A4{background-position:-20px -140px;}
+.M-A5{background-position:-20px -180px;}
+.M-A6{background-position:-20px -220px;}
+.M-A7{background-position:-20px -260px;}
+
+.M-B1{background-position:-60px -20px;}
+.M-B2{background-position:-60px -60px;}
+.M-B3{background-position:-60px -100px;}
+.M-B4{background-position:-60px -140px;}
+.M-B5{background-position:-60px -180px;}
+.M-B6{background-position:-60px -220px;}
+.M-B7{background-position:-60px -260px;}
+
+.M-C1{background-position:-100px -20px;}
+.M-C2{background-position:-100px -60px;}
+.M-C3{background-position:-100px -100px;}
+.M-C4{background-position:-100px -140px;}
+.M-C5{background-position:-100px -180px;}
+.M-C6{background-position:-100px -220px;}
+
+.M-D1{background-position:-140px -20px;}
+.M-D2{background-position:-140px -60px;}
+.M-D3{background-position:-140px -100px;}
+.M-D4{background-position:-140px -140px;}
+.M-D5{background-position:-140px -180px;}
+.M-D6{background-position:-140px -220px;}
+
+.M-E1{background-position:-180px -20px;}
+.M-E2{background-position:-180px -60px;}
+.M-E3{background-position:-180px -100px;}
+.M-E4{background-position:-180px -140px;}
+.M-E5{background-position:-180px -180px;}
+.M-E6{background-position:-180px -220px;}
+
+.M-F1{background-position:-220px -20px;}
+.M-F2{background-position:-220px -60px;}
+.M-F3{background-position:-220px -100px;}
+.M-F4{background-position:-220px -140px;}
+.M-F5{background-position:-220px -180px;}
+.M-F6{background-position:-220px -220px;}
+
+.M-G1{background-position:-260px -20px;}
+.M-G2{background-position:-260px -60px;}
+.M-G3{background-position:-260px -100px;}
+.M-G4{background-position:-260px -140px;}
+.M-G5{background-position:-260px -180px;}
+.M-G6{background-position:-260px -220px;}
+
+.M-H1{background-position:-300px -20px;}
+.M-H2{background-position:-300px -60px;}
+.M-H3{background-position:-300px -100px;}
+.M-H4{background-position:-300px -140px;}
+.M-H5{background-position:-300px -180px;}
+.M-H6{background-position:-300px -220px;}
+
+.M-I1{background-position:-340px -20px;}
+.M-I2{background-position:-340px -60px;}
+.M-I3{background-position:-340px -100px;}
+.M-I4{background-position:-340px -140px;}
+.M-I5{background-position:-340px -180px;}
+.M-I6{background-position:-340px -220px;}
+
+.M-J1{background-position:-380px -20px;}
+.M-J2{background-position:-380px -60px;}
+.M-J3{background-position:-380px -100px;}
+.M-J4{background-position:-380px -140px;}
+.M-J5{background-position:-380px -180px;}
+.M-J6{background-position:-380px -220px;}
+
+
+
+/*围栏 icon*/
+.img-fence{
+    background-image:url("/static/img/sprite/fence_icon.png");
+    background-repeat:no-repeat;
+}
+
+.fencetype-icon0 {background-position:0 0;}
+
+.fencetype-icon1 {background-position:-24px 0}
+
+.fencetype-icon2 {background-position:-48px 0}
+
+.fencetype-icon3 {background-position:-72px 0}
+
+.fencetype-icon4 {background-position:-96px 0}
+
+.fencetype-icon5 {background-position:-120px 0}
+
+.fencetype-icon6 {background-position:-144px 0}
+
+.fencetype-icon7 {background-position:-168px 0}
+
+.fencetype-icon8 {
+    background-position:0 -24px;
+}
+
+.fencetype-icon9 {
+    background-position:-24px -24px;
+}
+
+.fencetype-icon10 {
+    background-position:-48px -24px;
+}
+
+.fencetype-icon11 {
+    background-position:-72px -24px;
+}
+
+.fencetype-icon12 {
+    background-position:-96px -24px;
+}
+
+.fencetype-icon13 {
+    background-position:-120px -24px;
+}
+
+.fencetype-icon14 {
+    background-position:-144px -24px;
+}
+
+.fencetype-icon15 {
+    background-position:-168px -24px;
+}
+
+.fencetype-icon16 {
+    background-position:0 -48px;
+}
+
+.fencetype-icon17 {
+    background-position:-24px -48px;
+}
+
+.fencetype-icon18 {
+    background-position:-48px -48px;
+}
+
+.fencetype-icon19 {
+    background-position:-72px -48px;
+}
+
+.fencetype-icon20 {
+    background-position:-96px -48px;
+}
+
+.fencetype-icon21 {
+    background-position:-120px -48px;
+}
+
+.fencetype-icon22 {
+    background-position:-144px -48px;
+}
+
+.fencetype-icon23 {
+    background-position:-168px -48px;
+}
+
+.fencetype-icon24 {
+    background-position:0 -72px;
+}
+
+
+
+
+
+/*报警icon*/
+.allAlarmTypeIcon {
+    margin: 0 auto;
+    width: 40px;
+    height: 40px;
+    background-image: url("/static/img/sprite/allAlarmTypeIcon.png");
+    background-repeat: no-repeat;
+}
+/*超速报警*/
+.AI-A1 {
+    background-position: -20px -20px;
+}
+.AI-A1Gray {
+    background-position: -20px -60px;
+}
+/*紧急刹车*/
+.AI-B1 {
+    background-position: -60px -20px;
+}
+.AI-B1Gray {
+    background-position: -60px -60px;
+}
+/*空挡滑行*/
+.AI-C1 {
+    background-position: -100px -20px;
+}
+.AI-C1Gray {
+    background-position: -100px -60px;
+}
+/*温度报警*/
+.AI-D1 {
+    background-position: -140px -20px;
+}
+.AI-D1Gray {
+    background-position: -140px -60px;
+}
+/*疲劳驾驶*/
+.AI-E1 {
+    background-position: -180px -20px;
+}
+.AI-E1Gray {
+    background-position: -180px -60px;
+}
+/*低电量报警*/
+.AI-F1 {
+    background-position: -220px -20px;
+}
+.AI-F1Gray {
+    background-position: -220px -60px;
+}
+/*油位异常报警*/
+.AI-G1 {
+    background-position: -260px -20px;
+}
+.AI-G1Gray {
+    background-position: -260px -60px;
+}
+/*未系安全带*/
+.AI-H1 {
+    background-position: -300px -20px;
+}
+.AI-H1Gray {
+    background-position: -300px -60px;
+}
+/*进电子围栏*/
+.AI-I1 {
+    background-position: -340px -20px;
+}
+.AI-I1Gray {
+    background-position: -340px -60px;
+}
+/*出电子围栏*/
+.AI-J1 {
+    background-position: -380px -20px;
+}
+.AI-J1Gray {
+    background-position: -380px -60px;
+}
+/*出道路*/
+.AI-A3 {
+    background-position: -20px -100px;
+}
+.AI-A3Gray {
+    background-position: -20px -140px;
+}
+/*进道路*/
+.AI-B3 {
+    background-position: -60px -100px;
+}
+.AI-B3Gray {
+    background-position: -60px -140px;
+}
+/*道路偏移*/
+.AI-C3 {
+    background-position: -100px -100px;
+}
+.AI-C3Gray {
+    background-position: -100px -140px;
+}
+/*超时停车*/
+.AI-D3 {
+    background-position: -140px -100px;
+}
+.AI-D3Gray {
+    background-position: -140px -140px;
+}
+/*JT606断开连接*/
+.AI-E3 {
+    background-position: -180px -100px;
+}
+.AI-E3Gray {
+    background-position: -180px -140px;
+}
+/*主电源断开*/
+.AI-F3 {
+    background-position: -220px -100px;
+}
+.AI-F3Gray {
+    background-position: -220px -140px;
+}
+/*GPS天线开路*/
+.AI-G3 {
+    background-position: -260px -100px;
+}
+.AI-G3Gray {
+    background-position: -260px -140px;
+}
+/*GPS天线短路*/
+.AI-H3 {
+    background-position: -300px -100px;
+}
+.AI-H3Gray {
+    background-position: -300px -140px;
+}
+/*GSM信号干扰*/
+.AI-I3 {
+    background-position: -340px -100px;
+}
+.AI-I3Gray {
+    background-position: -340px -140px;
+}
+/*劫警*/
+.AI-J3 {
+    background-position: -380px -100px;
+}
+.AI-J3Gray {
+    background-position: -380px -140px;
+}
+/*胎温胎压报警*/
+.AI-A5 {
+    background-position: -20px -180px;
+}
+.AI-A5Gray {
+    background-position: -20px -220px;
+}
+/*震动报警*/
+.AI-B5 {
+    background-position: -60px -180px;
+}
+.AI-B5Gray {
+    background-position: -60px -220px;
+}
+/*锁绳剪断报警*/
+.AI-C5 {
+    background-position: -100px -180px;
+}
+.AI-C5Gray {
+    background-position: -100px -220px;
+}
+/*刷非授权卡报警*/
+.AI-D5 {
+    background-position: -140px -180px;
+}
+.AI-D5Gray {
+    background-position: -140px -220px;
+}
+/*开后盖报警*/
+.AI-E5 {
+    background-position: -180px -180px;
+}
+.AI-E5Gray {
+    background-position: -180px -220px;
+}
+/*非许可区域报警*/
+.AI-F5 {
+    background-position: -220px -180px;
+}
+.AI-F5Gray {
+    background-position: -220px -220px;
+}
+/*碰撞报警*/
+.AI-G5 {
+    background-position: -260px -180px;
+}
+.AI-G5Gray {
+    background-position: -260px -220px;
+}
+/*姿态异常报警*/
+.AI-H5 {
+    background-position: -300px -180px;
+}
+.AI-H5Gray {
+    background-position: -300px -220px;
+}
+/*上盖被破坏报警*/
+.AI-I5 {
+    background-position: -340px -180px;
+}
+.AI-I5Gray {
+    background-position: -340px -220px;
+}
+/*密码错误报警*/
+.AI-J5 {
+    background-position: -380px -180px;
+}
+.AI-J5Gray {
+    background-position: -380px -220px;
+}
+/*锁异常报警*/
+.AI-A7 {
+    background-position: -20px -260px;
+}
+.AI-A7Gray {
+    background-position: -20px -300px;
+}
+/*控制板通讯异常报警*/
+.AI-B7 {
+    background-position: -60px -260px;
+}
+.AI-B7Gray {
+    background-position: -60px -300px;
+}
+/*卡锁报警*/
+.AI-C7 {
+    background-position: -100px -260px;
+}
+.AI-C7Gray {
+    background-position: -100px -300px;
+}
+/*长时间开锁报警*/
+.AI-D7 {
+    background-position: -140px -260px;
+}
+.AI-D7Gray {
+    background-position: -140px -300px;
+}
+/*拆卸报警*/
+.AI-E7 {
+    background-position: -180px -260px;
+}
+.AI-E7Gray {
+    background-position: -180px -300px;
+}
+.defaultAlarmIcon {
+    background-position: 50px 0px;
+}
+.defaultAlarmIconGray {
+    background-position: 50px 0px;
+}
+
+/*综合系统历史轨迹icon*/
+/*查询类型icon*/
+.queryDataTypeIcon {
+    margin: 0 auto;
+    width: 26px;
+    height: 26px;
+    background-image: url("/static/img/sprite/track_icon.png");
+    background-repeat: no-repeat;
+}
+/*停车点*/
+.stop-point {
+    background-position: 0px 0px;
+}
+.stop-point-check {
+    background-position: 0px -26px;
+}
+/*加减油*/
+.oil-point {
+    background-position: -26px 0px;
+}
+.oil-point-check {
+    background-position: -26px -26px;
+}
+/*运行段*/
+.runSection-point {
+    background-position: -52px 0px;
+}
+.runSection-point-check {
+    background-position: -52px -26px;
+}
+/*开关门*/
+.door-point {
+    background-position: -78px 0px;
+}
+.door-point-check {
+    background-position: -78px -26px;
+}
+/*接甩挂*/
+.trailer-point {
+    background-position: -104px 0px;
+}
+.trailer-point-check {
+    background-position: -104px -26px;
+}
+/*开关锁*/
+.lock-point {
+    background-position: -130px 0px;
+}
+.lock-point-check {
+    background-position: -130px -26px;
+}
+/*超速报警*/
+.alarm-point {
+    background-position: -156px 0px;
+}
+.alarm-point-check {
+    background-position: -156px -26px;
+}
+/*胎压*/
+.tire-point {
+    background-position: -182px 0px;
+}
+.tire-point-check {
+    background-position: -182px -26px;
+}

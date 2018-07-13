@@ -1,0 +1,370 @@
+{
+  "dataType": "报警类型英文",
+  "dataContent": [
+    {
+      "systemType": 1,
+      "alarmType": [
+        {
+          "FDataType": "1",
+          "alarmName": "Over Speed",
+          "classify":"AI-A1Gray"
+        },
+        {
+          "FDataType": "2",
+          "alarmName": "Pressure alarm for tire pressure",
+          "classify":"AI-A5Gray"
+        },
+        {
+          "FDataType": "3",
+          "alarmName": "Timeout Parking",
+          "classify":"AI-D3Gray"
+        },
+        {
+          "FDataType": "4",
+          "alarmName": "Fatigue Driving",
+          "classify":"AI-E1Gray"
+        },
+        {
+          "FDataType": "6",
+          "alarmName": "Low Battery",
+          "classify":"AI-F1Gray"
+        },
+        {
+          "FDataType": "14",
+          "alarmName": "Zone alarm",
+          "classify":"AI-I1Gray"
+        },
+        {
+          "FDataType": "15",
+          "alarmName": "Regional alarm",
+          "classify":"AI-J1Gray"
+        },
+        {
+          "FDataType": "19",
+          "alarmName": "Main engine disassembly alarm",
+          "classify":""
+        },
+        {
+          "FDataType": "20",
+          "alarmName": "Remove alarm from machine",
+          "classify":""
+        },
+        {
+          "FDataType": "24",
+          "alarmName": "_进道路报警_",
+          "classify":"AI-B3Gray"
+        },
+        {
+          "FDataType": "25",
+          "alarmName": "_出道路报警_",
+          "classify":"AI-A3Gray"
+        },
+        {
+          "FDataType": "26",
+          "alarmName": "Road deviation alarm",
+          "classify":"AI-C3Gray"
+        }
+      ]
+    },
+    {
+      "systemType": 2,
+      "alarmType":[
+        {
+          "FDataType": "1",
+          "alarmName": "Over Speed",
+          "classify":"AI-A1Gray"
+        },
+        {
+          "FDataType": "7",
+          "alarmName": "Temperature Alarm",
+          "classify":"AI-D1Gray"
+        },
+        {
+          "FDataType": "9",
+          "alarmName": "Brush card illegally",
+          "classify":"AI-D5Gray"
+        },
+        {
+          "FDataType": "10",
+          "alarmName": "Cut the lock and cut the alarm",
+          "classify":"AI-C5Gray"
+        },
+        {
+          "FDataType": "12",
+          "alarmName": "Five consecutive password errors",
+          "classify":"AI-J5Gray"
+        },
+        {
+          "FDataType": "13",
+          "alarmName": "Vibration alarm",
+          "classify":"AI-B5Gray"
+        },
+        {
+          "FDataType": "14",
+          "alarmName": "Zone alarm",
+          "classify":"AI-I1Gray"
+        },
+        {
+          "FDataType": "15",
+          "alarmName": "Regional alarm",
+          "classify":"AI-J1Gray"
+        },
+        {
+          "FDataType": "16",
+          "alarmName": "Lock low electrical alarm (less than 30%)",
+          "classify":"AI-F1Gray"
+        },
+        {
+          "FDataType": "17",
+          "alarmName": "Open cover alarm",
+          "classify":"AI-E5Gray"
+        },
+        {
+          "FDataType": "24",
+          "alarmName": "_进道路报警_",
+          "classify":"AI-B3Gray"
+        },
+        {
+          "FDataType": "25",
+          "alarmName": "_出道路报警_",
+          "classify":"AI-A3Gray"
+        },
+        {
+          "FDataType": "26",
+          "alarmName": "Road deviation alarm",
+          "classify":"AI-C3Gray"
+        },
+        {
+          "FDataType": null,
+          "alarmName": "_锁异常报警_",
+          "classify":"AI-A7Gray"
+        },
+        {
+          "FDataType": null,
+          "alarmName": "_非许可区域报警_",
+          "classify":"AI-F5Gray"
+        },
+        {
+          "FDataType": null,
+          "alarmName": "_上盖被破坏报警_",
+          "classify":"AI-I5Gray"
+        },
+        {
+          "FDataType": null,
+          "alarmName": "_控制板通讯异常报警_",
+          "classify":"AI-B7Gray"
+        }
+      ]
+    },
+    {
+      "systemType": 4,
+      "alarmType":[
+        {
+          "FDataType": "1",
+          "alarmName": "Over Speed",
+          "classify":"AI-A1Gray"
+        },
+        {
+          "FDataType": "2",
+          "alarmName": "Pressure alarm for tire pressure",
+          "classify":"AI-A5Gray"
+        },
+        {
+          "FDataType": "3",
+          "alarmName": "Timeout Parking",
+          "classify":"AI-D3Gray"
+        },
+        {
+          "FDataType": "4",
+          "alarmName": "Fatigue Driving",
+          "classify":"AI-E1Gray"
+        },
+        {
+          "FDataType": "6",
+          "alarmName": "Low Battery",
+          "classify":"AI-F1Gray"
+        },
+        {
+          "FDataType": "7",
+          "alarmName": "Temperature Alarm",
+          "classify":"AI-D1Gray"
+        },
+        {
+          "FDataType": "13",
+          "alarmName": "Vibration alarm",
+          "classify":"AI-B5Gray"
+        },
+        {
+          "FDataType": "14",
+          "alarmName": "Zone alarm",
+          "classify":"AI-I1Gray"
+        },
+        {
+          "FDataType": "15",
+          "alarmName": "Regional alarm",
+          "classify":"AI-J1Gray"
+        },
+        {
+          "FDataType": "24",
+          "alarmName": "_进道路报警_",
+          "classify":"AI-B3Gray"
+        },
+        {
+          "FDataType": "25",
+          "alarmName": "_出道路报警_",
+          "classify":"AI-A3Gray"
+        },
+        {
+          "FDataType": "26",
+          "alarmName": "Road deviation alarm",
+          "classify":"AI-C3Gray"
+        },
+        {
+          "FDataType": "27",
+          "alarmName": "JT606 _连接断开_",
+          "classify":"AI-E3Gray"
+        },
+        {
+          "FDataType": "28",
+          "alarmName": "_主电源断开报警_",
+          "classify":"AI-F3Gray"
+        },
+        {
+          "FDataType": "29",
+          "alarmName": "GPS _天线开路_",
+          "classify":"AI-G3Gray"
+        },
+        {
+          "FDataType": "30",
+          "alarmName": "GPS _天线短路_",
+          "classify":"AI-H3Gray"
+        },
+        {
+          "FDataType": "31",
+          "alarmName": "GSM _信号干扰_",
+          "classify":"AI-I3Gray"
+        },
+        {
+          "FDataType": "32",
+          "alarmName": "_劫警_",
+          "classify":"AI-J3Gray"
+        },
+        {
+          "FDataType": "33",
+          "alarmName": "_紧急刹车报警_",
+          "classify":"AI-B1Gray"
+        },
+        {
+          "FDataType": "34",
+          "alarmName": "_空挡滑行报警_",
+          "classify":"AI-C1Gray"
+        },
+        {
+          "FDataType": null,
+          "alarmName": "_油位异常报警_",
+          "classify":"AI-G1Gray"
+        },
+        {
+          "FDataType": null,
+          "alarmName": "_未系安全带报警_",
+          "classify":"AI-H1Gray"
+        }
+      ]
+    },
+    {
+      "systemType": 6,
+      "alarmType":[
+        {
+          "FDataType": "6",
+          "alarmName": "Low Battery",
+          "classify":"AI-F1Gray"
+        },
+        {
+          "FDataType": "6",
+          "alarmName": "_撞击报警_",
+          "classify":"AI-G5Gray"
+        }
+      ]
+    },
+    {
+      "systemType": 7,
+      "alarmType":[
+        {
+          "FDataType": "1",
+          "alarmName": "Over Speed",
+          "classify":"AI-A1Gray"
+        },
+        {
+          "FDataType": "6",
+          "alarmName": "Low Battery",
+          "classify":"AI-F1Gray"
+        },
+        {
+          "FDataType": "9",
+          "alarmName": "Brush card illegally",
+          "classify":"AI-D5Gray"
+        },
+        {
+          "FDataType": "10",
+          "alarmName": "Cut the lock and cut the alarm",
+          "classify":"AI-C5Gray"
+        },
+        {
+          "FDataType": "12",
+          "alarmName": "Five consecutive password errors",
+          "classify":"AI-J5Gray"
+        },
+        {
+          "FDataType": "14",
+          "alarmName": "Zone alarm",
+          "classify":"AI-I1Gray"
+        },
+        {
+          "FDataType": "15",
+          "alarmName": "Regional alarm",
+          "classify":"AI-J1Gray"
+        },
+        {
+          "FDataType": "17",
+          "alarmName": "Open cover alarm",
+          "classify":"AI-E5Gray"
+        },
+        {
+          "FDataType": "24",
+          "alarmName": "_进道路报警_",
+          "classify":"AI-B3Gray"
+        },
+        {
+          "FDataType": "25",
+          "alarmName": "_出道路报警_",
+          "classify":"AI-A3Gray"
+        },
+        {
+          "FDataType": "26",
+          "alarmName": "Road deviation alarm",
+          "classify":"AI-C3Gray"
+        },
+        {
+          "FDataType": null,
+          "alarmName": "_锁异常报警_",
+          "classify":"AI-A7Gray"
+        },
+        {
+          "FDataType": null,
+          "alarmName": "_非许可区域报警_",
+          "classify":"AI-F5Gray"
+        },
+        {
+          "FDataType": null,
+          "alarmName": "_上盖被破坏报警_",
+          "classify":"AI-I5Gray"
+        },
+        {
+          "FDataType": null,
+          "alarmName": "_控制板通讯异常报警_",
+          "classify":"AI-B7Gray"
+        }
+      ]
+    }
+  ]
+}

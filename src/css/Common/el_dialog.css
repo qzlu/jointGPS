@@ -1,0 +1,161 @@
+/*Admin module dialog style*/
+.el-dialog label {
+    font-weight:500;
+}
+
+.el-form-item{
+    margin-bottom: 8px;
+}
+
+.el-form-item__error{
+    top: 33px;
+}
+
+.el-dialog__header {
+    height:40px;
+    padding:0;
+    text-align:center;
+    line-height:40px;
+    background-color:#1970cf;
+    color:#fff;
+}
+
+.el-dialog__header .el-dialog__title {
+    color:#fff;
+    font-weight:500;
+    font-size:14px;
+}
+
+.el-dialog__header .el-dialog__headerbtn {
+    /*padding:8px 10px 0 0;*/
+    top:10px;
+}
+.el-dialog__headerbtn .el-dialog__close{
+    color:#ffffff
+}
+.el-dialog__footer {
+    background-color:#f8f8f8;
+}
+
+.el-dialog .el-input__inner {
+    height:28px;
+    border-radius:0;
+}
+
+.el-dialog .el-textarea__inner {
+    border-radius:0;
+}
+
+.el-dialog .el-dialog__body {
+    max-height:600px;
+    overflow:auto;
+}
+/*  .el-form-item__error {
+ color: #ff4949;
+ font-size: 12px;
+ position: absolute;
+ padding-top: 0;
+ top:35px;
+}
+div.el-col {
+  height:46px;
+}  */
+
+.el-dialog .el-date-editor.el-input {
+    width:100%;
+}
+
+.el-dialog .el-date-editor--date .el-input__inner {
+    width:100%;
+    padding-left:50px;
+    margin:0;
+    border-color:#bfcbd9;
+}
+
+.el-dialog .el-date-editor--date .el-input__inner:hover {
+    border-color:#8391a5;
+}
+
+.el-dialog .el-icon-date:after, .el-dialog .el-icon-time:after {
+    left:-1px;
+    top:-3px;
+}
+
+.el-dialog .el-icon-date:before, .el-dialog .el-icon-time:before {
+    top:5px;
+}
+.el-message-box__headerbtn .el-message-box__close{
+    color:#fff;
+}
+
+/*快捷菜单样式  请妥善修改*/
+.menu-info{
+   /* min-width:900px;*/   /*1280显示换行*/
+    min-width:800px;
+}
+.menue-info  .el-dialog__body{
+    max-height:none;
+}
+.menue-info  .el-dialog__body table{
+    width:100%;
+}
+.menue-info td{
+    height:35px;
+    border: 2px solid #ccc !important;
+}
+/*快捷菜单样式  请妥善修改*/
+
+
+
+/*车辆选择*/
+.carChoiselist .modal-dialog{
+    height:445px;
+    margin: auto;
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+}
+.carChoiselist .modal-header {
+    background:#1a70ce;
+    color:white;
+    font-size:14px;
+    height:40px;
+    line-height:40px;
+    padding:10px;
+}
+
+.carChoiselist .modal-content {
+    width:500px;
+    padding-bottom:15px;
+}
+
+.carChoiselist .modal-footer {
+    height:auto;
+    text-align:center;
+    padding-top:5px;
+}
+
+.carChoiselist .el-input {
+    margin:5px 0;
+}
+
+.carChoiselist .el-input__inner {
+    height:30px;
+}
+
+.carChoiselist .el-tree {
+    height:300px;
+    overflow-y:auto;
+}
+
+.carChoiselist .el-tree-node__content {
+    height:30px !important;
+    line-height:30px !important;
+}
+
+.carChoiselist .el-tree-node__content > .el-checkbox {
+    display:none;
+}
+.noCheckBox .el-tree-node__content > .el-checkbox {
+    display:inline-block!important;
+}
+

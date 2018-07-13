@@ -1,0 +1,48 @@
+/*Pagination*/
+.pagination {
+    margin:0;
+    padding:5px 0;
+    width:100%;
+    background-color:#fff;
+    border-left:1px solid #ccc;
+    border-bottom:1px solid #ccc;
+}
+
+.el-pager {
+    margin-left:5px;
+}
+
+.el-pager li {
+    margin:0 5px;
+    border-radius:4px;
+}
+
+.el-pager li.active {
+    border-color:#6faed9;
+    background-color:#6faed9;
+    color:#fff;
+    cursor:default;
+}
+
+.el-pagination .btn-next {
+    margin-left:5px;
+}
+
+.el-pagination .btn-prev {
+    border-right:1px solid #d1dbe5;
+}
+
+.el-pager li {
+    border-right:1px solid #d1dbe5;
+}
+
+.el-pager li.active+li {
+    border-left:1px solid #d1dbe5;
+}
+
+.el-pagination .btn-next {
+    border-left:1px solid #d1dbe5;
+}
+.el-pagination__total{
+    margin-left:10px;
+}

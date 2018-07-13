@@ -1,0 +1,147 @@
+/*.content_Temp{*/
+  /*height:100%*/
+/*}*/
+.padding{
+	padding: 10px
+}
+.firstRow{
+	border-bottom: 1px dashed #dbdbdb;
+	margin-bottom: 20px;
+	padding-bottom: 10px;
+}
+.margin10{
+	margin-top: 10px;
+    margin-bottom: 10px
+}
+.uploaderBtn{display:inline-block; position:relative; overflow:hidden;}
+.uploaderBtn input[type='file']{position:absolute; right:0; top:0; font-size:100px; opacity:0; filter:alpha(opacity=0);}
+.topTool{
+	margin:10px 0;
+}
+
+/*index  header style*/
+.skin-blue .main-header .logo,.skin-blue .main-header .navbar {
+  background-color: #005fc6;
+}
+.skin-blue .main-header .logo:hover{
+  background-color: #005fc6;
+}
+.main-header .logo{
+  height:50px;
+  width:40%;
+  line-height:50px;
+}
+.main-header .navbar{
+  float:left;
+  width:60%;
+  margin-left:0;
+}
+.main-header ul li{
+  font-size:20px;
+}
+.main-header .main-logo{
+  float:left;
+  display:block;
+  padding:13px 0 0 27px;
+}
+.main-header .system-name{
+  float:left;
+  padding:13px 0 0 53px;
+}
+.main-header .system-name img{
+  float:left;
+  display:block;
+  width:55px;
+  padding:10px 3px 0 0;
+}
+.main-header .system-name p{
+  float:left;
+  height:36px;
+  line-height:40px;
+  font-size:24px;
+  color:#fff;
+}
+.navbar-nav > li > a{
+  padding:0 25px 0;
+}
+.main-header .navbar .nav>li>a>.label{
+  top:13px;
+  right:17px;
+}
+.main-header .user a,.main-header .system-type a{
+  font-size:14px;
+}
+.main-header .big-icon{
+  display:block;
+  float:left;
+  font-size:30px;
+  padding-right:5px;
+}
+.main-header .fa-chevron-down{
+  padding-left:10px;
+  font-size:16px;
+}
+.main-header .has-border{
+  border-left:1px solid #09417d;
+  border-right:1px solid #3b8feb;
+}
+@media (max-width: 1124px) and (min-width:0px) {
+  .main-header {
+    height:120px;
+    max-height:120px;
+  }
+  .main-header .logo, .main-header .navbar {
+    float:none;
+    width:100%;
+  }
+  .skin-blue .main-header .logo,.skin-blue .main-header .logo:hover {
+    background-color:#4BC399;
+  }
+  .navbar-nav > li > a{
+    line-height: 60px;
+    padding:0 25px 0;
+  }
+}
+/* main-sidebar  style*/
+.sidebar-toggle{
+  position:absolute;
+  left:100%;
+  top:45%;
+  display:block;
+  width:20px;
+  height:50px;
+  line-height:50px;
+  text-align:center;
+  font-size:25px;
+  background-color:#ccc;
+  color:#0b97c4;
+}
+.main-sidebar, .left-side{
+  padding-top:60px;
+}
+@media (max-width: 1124px) and (min-width:0px) {
+  .main-sidebar, .left-side,.fixed .content-wrapper, .fixed .right-side{
+    padding-top:120px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
